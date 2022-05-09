@@ -1,3 +1,5 @@
 # Task_List
-## Picture here
-[Picture](Group.png)
+## Preview picture here.
+![Picture](Group.png)
+
+### Just a dinamic task manager page.
