@@ -1,97 +1,105 @@
-                                                                                            /* All elements padding & margin */
-                                                                                        
-                                                                                        * {
-                                                                                            margin: 0;
-                                                                                            padding: 0;
-                                                                                            box-sizing: border-box;
-                                                                                        }
-                                                                                        /* Begin of the Page design */
-                                                                                        
-                                                                                        body {
-                                                                                            width: 100%;
-                                                                                            height: 1000px;
-                                                                                            margin: 30px;
-                                                                                            padding: 20px;
-                                                                                            border: 5px solid black;
-                                                                                        }
-                                                                                        
-                                                                                        .container {
-                                                                                            display: flex;
-                                                                                            flex-direction: column;
-                                                                                            width: 800px;
-                                                                                            height: 400px;
-                                                                                            align-items: center;
-                                                                                            margin-left: 30px;
-                                                                                            padding-top: 20px;
-                                                                                            background-color: #c4c4c4;
-                                                                                            border-radius: 28px;
-                                                                                        }
-                                                                                        
-                                                                                        .title {
-                                                                                            font-size: 30px;
-                                                                                            line-height: 48px;
-                                                                                        }
-                                                                                        
-                                                                                        .text_input {
-                                                                                            width: 700px;
-                                                                                            height: 50px;
-                                                                                            margin-left: 80px;
-                                                                                            color: #4f0c0c;
-                                                                                            font-size: 30px;
-                                                                                            margin-top: 20px;
-                                                                                        }
-                                                                                        
-                                                                                        .user_text {
-                                                                                            width: 700px;
-                                                                                            height: 50px;
-                                                                                            margin-bottom: 10px;
-                                                                                        }
-                                                                                        
-                                                                                        input {
-                                                                                            width: 600px;
-                                                                                            height: 50px;
-                                                                                            font-size: 20px;
-                                                                                            line-height: 29px;
-                                                                                            color: #aeaeae;
-                                                                                            background-color: #fafafa;
-                                                                                            border-radius: 17px 0px 0px 17px;
-                                                                                        }
-                                                                                        
-                                                                                        button {
-                                                                                            background-color: #7F8082;
-                                                                                            width: 90px;
-                                                                                            height: 50px;
-                                                                                            font-size: 20px;
-                                                                                            text-align: start;
-                                                                                            border-radius: 0px 17px 17px 0px;
-                                                                                        }
-                                                                                        
-                                                                                        .text_list {
-                                                                                            width: 700px;
-                                                                                            height: 80px;
-                                                                                            text-align: center;
-                                                                                            margin-top: 20px;
-                                                                                            font-size: 30px;
-                                                                                        }
-                                                                                        
-                                                                                        .list_box {
-                                                                                            width: 700px;
-                                                                                            height: 80px;
-                                                                                        }
-                                                                                        
-                                                                                        .list_box ul {
-                                                                                            width: 700px;
-                                                                                            height: 35px;
-                                                                                            border: 2px solid rgb(167, 149, 149);
-                                                                                            color: #000;
-                                                                                            background-color: #ffc4c4;
-                                                                                            margin-bottom: 5px;
-                                                                                            position: relative;
-                                                                                        }
-                                                                                        
-                                                                                        #delet1 i {
-                                                                                            position: absolute;
-                                                                                            right: 0px;
-                                                                                            width: 80px;
-                                                                                            height: 35px;
-                                                                                            background-color: #7F8082;
+ /* All elements padding & margin */
+
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+ /* Begin of the Page design */
+
+ body {
+     font-family: Arial, Helvetica, sans-serif;
+     background-color: deepskyblue;
+ }
+
+ .container {
+     max-width: 800px;
+     height: fit-content;
+     background-color: #c4c4c4;
+     border-radius: 10px;
+     margin: 30px auto;
+     padding-bottom: 30px;
+ }
+
+ .title {
+     padding: 20px 0;
+     font-size: 20px;
+     line-height: 48px;
+     text-align: center;
+ }
+
+ .text_input {
+     max-width: 700px;
+     margin-left: 10%;
+     color: #4f0c0c;
+     font-size: 26px;
+     margin-bottom: 20px;
+ }
+
+ .user_text {
+     width: 90%;
+     height: 50px;
+     margin: 10px auto;
+     background-color: #fafafa;
+     border-radius: 17px;
+ }
+
+ input {
+     width: 85%;
+     height: 100%;
+     font-size: 20px;
+     line-height: 29px;
+     border: 0;
+     border-radius: 17px 0px 0px 17px;
+     outline: none;
+     padding-left: 10px;
+ }
+
+ button {
+     background-color: #7F8082;
+     width: 15%;
+     height: 100%;
+     font-size: 29px;
+     float: right;
+     text-align: start;
+     border: 0;
+     text-align: center;
+     border-radius: 0px 17px 17px 0px;
+     cursor: pointer;
+ }
+
+ .text_list {
+     width: 700px;
+     height: 80px;
+     text-align: center;
+     margin-top: 20px;
+     font-size: 30px;
+ }
+
+ .list_box {
+     width: 100%;
+ }
+
+ .list_box ul {
+     width: 90%;
+     height: 100%;
+     list-style: none;
+     margin: 0 auto;
+ }
+
+ #delet1{
+     height: 30px;
+     margin: 10px;
+     background-color: #FFC4C4;
+     padding: 0 10px;
+ }
+
+ #delet1 span{
+    height: 100%;
+    float: right;
+    width: 15%;
+   text-align: center;
+    background-color: #7F8082;
+    cursor: pointer;
+ }

@@ -68,10 +68,6 @@
     color: #000000;
 
 ### Delete button
+
     background: #7F8082;
     border-radius: 0px 17px 17px 0px;
-
-#
-
-# Image 
-# ![Picture](Group.png)
