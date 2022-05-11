@@ -30,7 +30,7 @@
 ### Input
 
     background: #FAFAFA;
-    border-radius: 17px 0px 0px 17px;
+    border-radius: 7px 0px 0px 7px;
 
 
 ### Input Placeholder Text
@@ -43,7 +43,7 @@
 ### Input Button 
     
     background: #7F8082;
-    border-radius: 0px 17px 17px 0px;
+    border-radius: 0px 7px 7px 0px;
 
 ### User Task list Title
 
@@ -58,7 +58,7 @@
 ### List text output section
 
     background: #FFC4C4;
-    border-radius: 17px 0px 0px 17px;
+    border-radius: 7px 0px 0px 7px;
 
 ### List text output
 
@@ -70,4 +70,4 @@
 ### Delete button
 
     background: #7F8082;
-    border-radius: 0px 17px 17px 0px;
+    border-radius: 0px 7px 7px 0px;
