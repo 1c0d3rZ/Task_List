@@ -74,8 +74,6 @@ document.getElementById("btn").addEventListener("click", () => {
 function addEventAfterKeyPress(event) {
     if (inputLength() > 0 && event.which === 13) {
         createListItem();
-    } else {
-        alert("Please enter a task !")
     }
 };
 
